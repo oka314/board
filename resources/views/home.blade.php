@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    <a href="#" class="start-link">Boardを始める！</a>
+                    <a href="/post" class="start-link">Boardを始める！</a>
                 </div>
             </div>
         </div>
