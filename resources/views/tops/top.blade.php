@@ -12,7 +12,7 @@
   <h1>掲示板へようこそ</h1>
   <ul>
     <li><a href="/home">ログイン</a></li>
-    <li><a href="/register">会員登録</a></li>
+    <li><a href="/register">新規登録</a></li>
   </ul>
 </body>
 </html>
