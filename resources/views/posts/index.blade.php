@@ -8,13 +8,14 @@
   <title>Boad一覧</title>
 </head>
 <body>
-  <head>
+  <header>
     <a href="/" class="title">Boad</a>
+    <button class="search"></button>
     <div class="header-menu">
       <a href="#" class="user menu-btn">おか</a>
       <a href="#" class="post-new menu-btn">新規投稿</a>
       <a href="#" class="end menu-btn">ログアウト</a>
     </div>
-  </head>
+  </header>
 </body>
 </html>
