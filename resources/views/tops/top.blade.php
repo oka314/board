@@ -9,10 +9,12 @@
   <title>Board</title>
 </head>
 <body>
-  <h1>掲示板へようこそ</h1>
-  <ul>
-    <li><a href="/home">ログイン</a></li>
-    <li><a href="/register">新規登録</a></li>
-  </ul>
+  <div class="title">
+    <h1>掲示板へようこそ</h1>
+  </div>
+  <div class="login">
+    <a href="/home" class="login-link">ログイン</a>
+    <a href="/register"class="login-link">新規登録</a>
+  </div>
 </body>
 </html>
