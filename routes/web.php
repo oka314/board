@@ -18,3 +18,4 @@ Route::get('/', 'TopsController@top');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/post', 'PostsController@index');
