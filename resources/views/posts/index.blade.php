@@ -11,10 +11,15 @@
   <header>
     <a href="/" class="title">Boad</a>
     <input class="search">
+    <button class="search-btn">検索</button>
     <div class="header-menu">
-      <a href="#" class="user menu-btn">おか</a>
-      <a href="#" class="post-new menu-btn">新規投稿</a>
-      <a href="#" class="end menu-btn">ログアウト</a>
+      <label for="menu_bar01">メニュー</label>
+      <input type="checkbox" id="menu-bar01" class="accordion"/>
+        <ul id="links01">
+          <li><a href="#" class="user menu-btn">自分の投稿一覧</a></li>
+          <li> <a href="#" class="post-new menu-btn">新規投稿</a></li>
+          <li><a href="#" class="end menu-btn">ログアウト</a></li>
+        </ul>
     </div>
   </header>
 </body>
