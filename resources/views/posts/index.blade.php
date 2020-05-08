@@ -18,7 +18,7 @@
       <div class="accshow">
         <ul>
           <li><a href="#" class="user menu-btn">自分の投稿一覧</a></li>
-          <li> <a href="#" class="post-new menu-btn">新規投稿</a></li>
+          <li> <a href="/post/new" class="post-new menu-btn">新規投稿</a></li>
           <li><a href="#" class="end menu-btn">ログアウト</a></li>
         </ul>
       </div>
