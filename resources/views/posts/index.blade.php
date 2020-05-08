@@ -10,7 +10,7 @@
 <body>
   <header>
     <a href="/" class="title">Boad</a>
-    <button class="search"></button>
+    <input class="search">
     <div class="header-menu">
       <a href="#" class="user menu-btn">おか</a>
       <a href="#" class="post-new menu-btn">新規投稿</a>
