@@ -28,6 +28,51 @@ li{
     height: 25px;
     border: 2px solid black;
   }
+  /* アコーディオンボックスのCSS */
+    .accbox{
+      text-align: center;
+      position: fixed;
+      right: 0;
+      top: 10px;
+      margin-left:15px ;
+    }
+    .accbox label {
+      display: block;
+      padding : 11px 12px;
+      font-weight: bold;
+      cursor :pointer;
+      transition: all 0.5s;
+    }
+    .accbox label:hover{
+      background-color: black;
+      opacity: 0.8;
+      color: white;
+    }
+    input{
+      outline: none;
+    }
+    .accbox input{
+      display: none;
+    }
+    .accbox .accshow {
+      height: 0;
+      padding: 0;
+      overflow: hidden;
+      opacity: 0;
+      transition: 0.8s;
+    }
+    
+    .cssacc:checked + .accshow {
+      height: auto;
+      border: solid 1px black;
+      text-align: center;
+      font-size: 15px;
+      opacity: 1;
+    }
+  /* ここまで */
+  ul{
+    padding: 0;
+  }
 
 }
 
