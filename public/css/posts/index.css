@@ -29,42 +29,6 @@ li{
     border: 2px solid black;
   }
 
-  .header-menu a {
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    color: red;
-  }
-  label{
-    display: block;
-    width: 90px;
-    height: 25px;
-    line-height:25px;
-    margin-left:10px ;
-    color :black;
-    font-weight: 900;
-    border: 2px solid black;
-    border-radius: 10%;
-    cursor :pointer;
-    text-align: center;
-  }
-  #menu-bar01{
-    display: none;
-  }
-
-   #links01{
-    height: 0;
-    overflow: hidden;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-  }
-  #menu_bar01:checked ~ #links01 li{
-    height: 54px;
-    opacity: 1;
-  } 
 }
 
 @media (min-width:400px){
@@ -94,10 +58,10 @@ li{
   .menu-btn{
     margin-right: 30px;
   }
-  label,#menu-bar01{
+  label,#label1{
     display: none;
   }
-  #links01{
+  ul{
     display: flex;
   }
 }
