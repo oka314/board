@@ -1,0 +1,112 @@
+header{
+  width: 100vw;
+  display: flex;
+  border-bottom: 2px black solid;
+}
+li{
+  list-style: none;
+}
+@media (max-width: 375px) {
+  body{
+    background-color: pink;
+  }
+
+  header{
+    padding-top:20px ;
+  }
+  .title,.menu-btn{
+    color: black;
+    text-decoration: none;
+  }
+  .search{
+    width: 50px;
+    height: 10px;
+    margin:0 30px ;
+  }
+  .search-btn{
+    width: 50px;
+    height: 25px;
+    border: 2px solid black;
+  }
+  /* アコーディオンボックスのCSS */
+    .accbox{
+      text-align: center;
+      position: fixed;
+      right: 0;
+      top: 10px;
+      margin-left:15px ;
+    }
+    .accbox label {
+      display: block;
+      padding : 11px 12px;
+      font-weight: bold;
+      cursor :pointer;
+      transition: all 0.5s;
+    }
+    .accbox label:hover{
+      background-color: black;
+      opacity: 0.8;
+      color: white;
+    }
+    input{
+      outline: none;
+    }
+    .accbox input{
+      display: none;
+    }
+    .accbox .accshow {
+      height: 0;
+      padding: 0;
+      overflow: hidden;
+      opacity: 0;
+      transition: 0.8s;
+    }
+    
+    .cssacc:checked + .accshow {
+      height: auto;
+      border: solid 1px black;
+      text-align: center;
+      font-size: 15px;
+      opacity: 1;
+    }
+  /* ここまで */
+  ul{
+    padding: 0;
+  }
+
+}
+
+@media (min-width:400px){
+  header{
+    padding: 50px 0 0 10%;
+  }
+
+  .search{
+    width: 500px;
+    height: 50px;
+    border: 3px solid black;
+    background-color: rebeccapurple;
+    margin:0 100px ;
+  }
+
+  .search-btn{
+    width: 50px;
+    height: 50px;
+  }
+
+  .title,.menu-btn{
+    color: black;
+    text-decoration: none;
+    font-size:30px ;
+  }
+
+  .menu-btn{
+    margin-right: 30px;
+  }
+  label,#label1{
+    display: none;
+  }
+  ul{
+    display: flex;
+  }
+}

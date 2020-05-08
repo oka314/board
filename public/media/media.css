@@ -1,0 +1,8 @@
+@media (max-width:500px){
+  
+  li{
+    font-size: 20px;
+    font-weight: 900;
+    list-style: none;
+  }
+}
